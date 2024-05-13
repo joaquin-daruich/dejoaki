@@ -1,0 +1,67 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Color de fondo */
+    color: #333; /* Color de texto */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db; /* Azul claro */
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #f1c40f; /* Amarillo */
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #2ecc71; /* Verde */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos para cada página */
+h2 {
+    color: #e74c3c; /* Rojo */
+}
+
+p {
+    color: #9b59b6; /* Púrpura */
+}
+
+/* Estilos adicionales */
+a {
+    color: #1abc9c; /* Verde claro */
+}
+
+a:hover {
+    color: #e67e22; /* Naranja */
+}
